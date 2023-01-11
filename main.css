@@ -1,0 +1,66 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    
+    /* 폰트의 가중치 두께 */
+    font-weight: 300;
+    
+}
+header{
+    /* background-color: #040d22; */
+    position: relative;
+}
+/* header .container{
+    display:flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} */
+header .forms input.form-control{
+    color: white;
+    background-color: rgba(255,255,255,.15);
+    border-color:rgba(255,255,255,.3);
+}
+
+header .forms input.form-control::placeholder{
+    color: rgba(255,255,255,.5)
+}
+section.hero {
+    background-color: #040d22;
+    position: relative;
+    overflow: hidden;
+}
+section.hero .container{
+    padding-top: 160px;
+    padding-bottom: 160px;
+    position: relative;
+}
+
+section.hero .headline h1{
+    font-size: 68px;
+    font-weight: 700;
+    /* 글자간의 간격 */
+    letter-spacing: -2px;
+}
+section.hero .headline p{
+    font-size: 26px;
+    
+}
+section.hero img.globe{
+    width: 900px;
+    position: absolute;
+    top: -5%;
+    left: 46%;
+}
+section.hero img.glow{
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+section.hero .curve{
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+}
